@@ -445,7 +445,7 @@ figure[data-rehype-pretty-code-figure] {
 }
 
 pre {
-  font-family: var(--codeFont);
+  font-family: var(--codeFont) !important;
   padding: 0 0.5rem;
   border-radius: 5px;
   overflow-x: auto;
@@ -521,7 +521,8 @@ p {
   overflow-x: auto;
 
   & > table {
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 1.5rem;
     border-collapse: collapse;
 

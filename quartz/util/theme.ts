@@ -8,6 +8,7 @@ export interface ColorScheme {
   tertiary: string
   highlight: string
   textHighlight: string
+  link?: string
 }
 
 interface Colors {
@@ -154,11 +155,7 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
   --textHighlight: ${theme.colors.lightMode.textHighlight};
-
-  --titleFont: "${getFontSpecificationName(theme.typography.title || theme.typography.header)}", ${DEFAULT_SANS_SERIF};
-  --headerFont: "${getFontSpecificationName(theme.typography.header)}", ${DEFAULT_SANS_SERIF};
-  --bodyFont: "${getFontSpecificationName(theme.typography.body)}", ${DEFAULT_SANS_SERIF};
-  --codeFont: "${getFontSpecificationName(theme.typography.code)}", ${DEFAULT_MONO};
+  --link: ${theme.colors.lightMode.link ?? "#0039a6"};
 }
 
 :root[saved-theme="dark"] {
@@ -171,6 +168,7 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};
   --textHighlight: ${theme.colors.darkMode.textHighlight};
+  --link: ${theme.colors.darkMode.link ?? "#6db3f2"};
 }
 `
 }

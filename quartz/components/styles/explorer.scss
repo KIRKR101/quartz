@@ -127,13 +127,24 @@ button.desktop-explorer {
     }
 
     & li > a {
-      color: var(--dark);
-      opacity: 0.75;
+      color: var(--secondary);
+      opacity: 0.9;
       pointer-events: all;
+      display: block;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid var(--gray);
+      font-size: 0.85rem;
+      transition: color 0.15s ease, opacity 0.15s ease;
 
       &.active {
         opacity: 1;
+        color: var(--secondary);
+        font-weight: 600;
+      }
+
+      &:hover {
         color: var(--tertiary);
+        opacity: 1;
       }
     }
   }
@@ -173,6 +184,7 @@ button.desktop-explorer {
     font-weight: $semiBoldWeight;
     line-height: 1.5rem;
     display: inline-block;
+    transition: color 0.15s ease;
   }
 
   & div > a:hover {
@@ -207,7 +219,7 @@ button.desktop-explorer {
   margin-right: 5px;
   color: var(--secondary);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, color 0.15s ease;
   backface-visibility: visible;
   flex-shrink: 0;
 }
