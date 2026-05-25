@@ -109,7 +109,7 @@ code {
 }
 
 article code:not(pre code) {
-  font-size: 0.875em;
+  font-size: 0.85em;
   padding: 0.15em 0.4em;
   border-radius: 4px;
   background: var(--lightgray);
@@ -160,6 +160,15 @@ article code:not(pre code) {
   background-color: transparent;
   border: 1px solid var(--gray);
   border-radius: 6px;
+  padding: 0 1rem 1rem 1rem;
+
+  &.is-collapsed {
+    padding-bottom: 0;
+  }
+
+  &.is-collapsible > .callout-title {
+    cursor: pointer;
+  }
 
   .callout-title {
     font-family: var(--ui-font);
