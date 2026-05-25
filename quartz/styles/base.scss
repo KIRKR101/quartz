@@ -291,10 +291,13 @@ a {
 
     & .center,
     & footer {
+      box-sizing: border-box;
       max-width: 100%;
       min-width: 100%;
       margin-left: auto;
       margin-right: auto;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
       @media all and ($tablet) {
         margin-right: 0;
       }
