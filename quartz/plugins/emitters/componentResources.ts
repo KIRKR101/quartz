@@ -268,6 +268,64 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.dispatchEvent(event)
     `)
   }
+
+  // Explorer tooltip: styled tooltip for truncated explorer items
+  componentResources.afterDOMLoaded.push(`
+    (function setupExplorerTooltips() {
+      const tooltip = document.createElement("div")
+      tooltip.id = "explorer-tooltip"
+      tooltip.className = "explorer-tooltip"
+      document.body.appendChild(tooltip)
+
+      let showTimeout
+      let currentEl = null
+
+      function showTooltip(el) {
+        const text = el.textContent || ""
+        if (!text) return
+        tooltip.textContent = text
+        tooltip.classList.add("visible")
+        const r = el.getBoundingClientRect()
+        tooltip.style.left = (r.right + 8) + "px"
+        tooltip.style.top = r.top + "px"
+      }
+
+      function hideTooltip() {
+        tooltip.classList.remove("visible")
+        currentEl = null
+      }
+
+      function attachToExplorers() {
+        const containers = document.querySelectorAll(".explorer-content")
+        for (const container of containers) {
+          if (container.dataset.tooltipInit) continue
+          container.dataset.tooltipInit = "1"
+
+          container.addEventListener("mouseover", (e) => {
+            const el = e.target.closest("a.nav-file-title, .folder-container .folder-title, .folder-container .folder-button")
+            if (!el || el === currentEl) return
+            clearTimeout(showTimeout)
+            hideTooltip()
+            currentEl = el
+            showTimeout = setTimeout(() => {
+              showTooltip(el)
+            }, 600)
+          })
+
+          container.addEventListener("mouseout", (e) => {
+            const el = e.target.closest("a.nav-file-title, .folder-container .folder-title, .folder-container .folder-button")
+            if (!el) return
+            clearTimeout(showTimeout)
+            if (currentEl) hideTooltip()
+          })
+        }
+      }
+
+      attachToExplorers()
+      document.addEventListener("nav", attachToExplorers)
+      document.addEventListener("render", attachToExplorers)
+    })();
+  `)
 }
 
 // This emitter should not update the `resources` parameter. If it does, partial
