@@ -6,6 +6,8 @@ import { QuartzEmitterPlugin } from "../types"
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
+// @ts-ignore
+import themeTransitionScript from "../../components/scripts/theme-transition.inline"
 import baseStyles from "../../styles/base.scss"
 import customStyles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
@@ -83,6 +85,10 @@ async function joinScripts(scripts: string[]): Promise<string> {
 
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
   const cfg = ctx.cfg.configuration
+
+  // Disable CSS transitions while the theme attribute is toggled so every
+  // element switches color in a single paint instead of at varied durations.
+  componentResources.beforeDOMLoaded.push(themeTransitionScript)
 
   // popovers
   if (cfg.enablePopovers) {

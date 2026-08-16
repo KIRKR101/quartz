@@ -4,6 +4,10 @@
 // Global
 // ============================================================================
 
+.theme-transition-off * {
+  transition: none !important;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
