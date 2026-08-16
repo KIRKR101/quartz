@@ -474,6 +474,11 @@ li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
   font-family: var(--headerFont);
 }
 
+button.darkmode,
+button.readermode {
+  display: flex;
+}
+
 .search-button {
   border: 1px solid var(--gray);
   border-radius: 6px;
