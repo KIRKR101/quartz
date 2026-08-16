@@ -4,6 +4,7 @@ import esbuild from "esbuild"
 import { styleText } from "util"
 import { sassPlugin } from "esbuild-sass-plugin"
 import fs from "fs"
+import YAML from "yaml"
 import { intro, outro, select, text } from "@clack/prompts"
 import { rm } from "fs/promises"
 import chokidar from "chokidar"
@@ -49,6 +50,8 @@ import {
   cacheFile,
   cwd,
 } from "./constants.js"
+
+const KIRKR_CONFIG_URL = "https://raw.githubusercontent.com/KIRKR101/quartz/v5/quartz.config.yaml"
 
 /**
  * Resolve content directory path
@@ -130,6 +133,11 @@ export async function handleCreate(argv) {
         message: "Choose a template for your Quartz configuration",
         options: [
           { value: "default", label: "Default", hint: "clean Quartz setup with sensible defaults" },
+          {
+            value: "kirkr",
+            label: "Kirkr",
+            hint: "uses the config from github.com/KIRKR101/quartz",
+          },
           {
             value: "obsidian",
             label: "Obsidian",
@@ -226,8 +234,8 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
     )
   }
 
-  // Obsidian and TTRPG templates auto-set link resolution to "shortest"
-  const skipLinkPrompt = template === "obsidian" || template === "ttrpg"
+  // Obsidian, TTRPG and Kirkr templates auto-set link resolution to "shortest"
+  const skipLinkPrompt = template === "obsidian" || template === "ttrpg" || template === "kirkr"
   if (skipLinkPrompt) {
     linkResolutionStrategy = "shortest"
   }
@@ -276,8 +284,20 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
   baseUrl = baseUrl.replace(/^https?:\/\//, "").replace(/\/+$/, "")
 
   if (template && template !== "default") {
-    createConfigFromTemplate(template)
-    console.log(styleText("green", `Created quartz.config.yaml from '${template}' template`))
+    if (template === "kirkr") {
+      const res = await fetch(KIRKR_CONFIG_URL)
+      if (!res.ok) {
+        outro(styleText("red", `Failed to fetch config (HTTP ${res.status}): ${KIRKR_CONFIG_URL}`))
+        process.exit(1)
+      }
+      writePluginsJson(YAML.parse(await res.text()))
+      console.log(
+        styleText("green", "Created quartz.config.yaml from 'kirkr' (github.com/KIRKR101/quartz)"),
+      )
+    } else {
+      createConfigFromTemplate(template)
+      console.log(styleText("green", `Created quartz.config.yaml from '${template}' template`))
+    }
   } else {
     createConfigFromTemplate("default")
     console.log(styleText("green", "Created quartz.config.yaml from defaults"))
