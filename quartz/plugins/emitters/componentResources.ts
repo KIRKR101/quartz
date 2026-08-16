@@ -325,6 +325,36 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.addEventListener("nav", attachToExplorers)
       document.addEventListener("render", attachToExplorers)
     })();
+
+    // Explorer: close an open folder by clicking anywhere on its row
+    document.addEventListener(
+      "click",
+      (e) => {
+        if (e.ctrlKey || e.metaKey) return
+        if (e.target.closest(".folder-icon")) return
+        const container = e.target.closest(".folder-container")
+        if (!container) return
+        const explorer = container.closest(".explorer")
+        if (!explorer || explorer.dataset.behavior !== "link") return
+        const folderOuter = container.nextElementSibling
+        if (!folderOuter || !folderOuter.classList.contains("open")) return
+
+        e.preventDefault()
+        e.stopPropagation()
+        folderOuter.classList.remove("open")
+
+        const folderPath = container.dataset.folderpath
+        const savedState = JSON.parse(localStorage.getItem("fileTree") || "[]")
+        const existingIndex = savedState.findIndex((item) => item.path === folderPath)
+        if (existingIndex >= 0) {
+          savedState[existingIndex].collapsed = true
+        } else {
+          savedState.push({ path: folderPath, collapsed: true })
+        }
+        localStorage.setItem("fileTree", JSON.stringify(savedState))
+      },
+      true,
+    )
   `)
 }
 

@@ -349,6 +349,7 @@ button.desktop-explorer {
   }
 
   div {
+    flex: 1;
     min-width: 0;
   }
 
@@ -366,6 +367,11 @@ button.desktop-explorer {
 
   div > button {
     overflow: hidden;
+  }
+
+  div > a,
+  div > button {
+    width: 100%;
   }
 
   div > a:hover,
