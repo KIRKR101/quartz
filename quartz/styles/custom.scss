@@ -515,6 +515,16 @@ button.readermode {
 // Table of Contents
 // ============================================================================
 
+// ============================================================================
+// Page lists (folder/tag pages)
+// ============================================================================
+
+// Give the date column a fixed width so every title starts at the same
+// horizontal position regardless of how long the date string is.
+li.section-li > .section {
+  grid-template-columns: 8em 3fr 1fr;
+}
+
 .toc {
   border: 1px solid var(--gray);
   border-radius: 6px;
