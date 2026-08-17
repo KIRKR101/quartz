@@ -233,6 +233,23 @@ article pre code {
   padding: 0;
 }
 
+// Images and captions
+figure {
+  margin: 1.75rem 0;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--gray);
+  text-align: center;
+}
+
 // Lists
 article ul,
 article ol {

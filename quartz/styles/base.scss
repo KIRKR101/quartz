@@ -603,11 +603,6 @@ img {
   content-visibility: auto;
 }
 
-p > img + em {
-  display: block;
-  transform: translateY(-1rem);
-}
-
 hr {
   width: 100%;
   margin: 2rem auto;
