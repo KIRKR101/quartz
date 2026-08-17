@@ -1,6 +1,26 @@
 @use "./variables.scss" as *;
 
 // ============================================================================
+// Design tokens
+// ============================================================================
+
+:root {
+  --status-success: #287a48;
+  --status-warning: #946800;
+  --status-danger: #b42318;
+  --status-info: #2563a8;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+:root[saved-theme="dark"] {
+  --status-success: #6ccf8e;
+  --status-warning: #e0b24c;
+  --status-danger: #ff7b72;
+  --status-info: #79b8ff;
+  --shadow: rgba(0, 0, 0, 0.35);
+}
+
+// ============================================================================
 // Global
 // ============================================================================
 
@@ -143,7 +163,7 @@ article h4:first-child {
 
 // Blockquotes
 blockquote {
-  border-left: 3px solid var(--gray);
+  border-left: 3px solid var(--lightgray);
   color: var(--darkgray);
   font-style: italic;
   background: transparent;
@@ -165,6 +185,7 @@ article a:not(.internal):not(.tag-link) {
   text-decoration-color: var(--gray);
   text-underline-offset: 0.2em;
   text-decoration-thickness: 1px;
+  font-weight: unset;
 }
 
 article a:not(.internal):not(.tag-link):hover {
@@ -185,7 +206,7 @@ article code:not(pre code) {
   border-radius: 4px;
   background: var(--lightgray);
   color: var(--dark);
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
 }
 
 // Code blocks
@@ -199,7 +220,7 @@ article pre {
 }
 
 article pre {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
   border-radius: 6px;
   padding: 1rem;
   overflow-x: auto;
@@ -233,7 +254,7 @@ table {
 
 th,
 td {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
   padding: 0.75rem 1rem;
   text-align: left;
 }
@@ -251,7 +272,7 @@ tr:hover {
 // Horizontal rules
 hr {
   border: none;
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid var(--lightgray);
   margin: 2rem 0;
 }
 
@@ -269,13 +290,13 @@ hr {
 // ============================================================================
 
 .page-header {
-  border-bottom: 1px solid var(--gray);
+  border-bottom: 1px solid var(--lightgray);
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .backlinks {
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid var(--lightgray);
   padding-top: 1rem;
 }
 
@@ -421,8 +442,8 @@ li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
   word-break: break-word;
   pointer-events: none;
   opacity: 0;
-  border: 1px solid var(--gray);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 1px 6px var(--shadow);
   transition:
     opacity 0.1s ease,
     visibility 0.1s ease;
@@ -439,8 +460,6 @@ li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
 // ============================================================================
 
 .callout {
-  background-color: transparent;
-  border: 1px solid var(--gray);
   border-radius: 6px;
   padding: 0 1rem 1rem 1rem;
 
@@ -451,19 +470,6 @@ li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
   &.is-collapsible > .callout-title {
     cursor: pointer;
   }
-}
-
-.callout-title {
-  color: var(--secondary);
-}
-
-.callout-title-inner > p {
-  color: var(--secondary);
-}
-
-.callout-icon,
-.fold-callout-icon {
-  background-color: var(--secondary);
 }
 
 // ============================================================================
@@ -484,10 +490,10 @@ button.readermode {
 }
 
 .search-button {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
   border-radius: 6px;
   background-color: var(--light);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 1px 2px var(--shadow);
   transition: all 0.2s ease;
   font-family: var(--headerFont);
 }
@@ -504,11 +510,11 @@ button.readermode {
 
 .graph > .graph-outer {
   border-radius: 0;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
 }
 
 .graph > .global-graph-outer > .global-graph-container {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
 }
 
 // ============================================================================
@@ -526,7 +532,7 @@ li.section-li > .section {
 }
 
 .toc {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
   border-radius: 6px;
   padding: 1rem;
 
@@ -548,7 +554,7 @@ li.section-li > .section {
 .tag-link {
   border-radius: 99px;
   background-color: var(--lightgray);
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
   padding: 0.1rem 0.6rem;
   font-size: 0.8rem;
   color: var(--darkgray);
@@ -564,12 +570,8 @@ li.section-li > .section {
 // ============================================================================
 
 .popover {
-  border: 1px solid var(--gray);
+  border: 1px solid var(--lightgray);
   border-radius: 8px;
   background-color: var(--light);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-}
-
-:root[saved-theme="dark"] .popover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 30px var(--shadow);
 }
