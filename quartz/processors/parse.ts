@@ -3,7 +3,7 @@ import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
 import { Processor, unified } from "unified"
 import { Root as MDRoot } from "remark-parse/lib"
-import { Root as HTMLRoot } from "hast"
+import { ElementContent, Root as HTMLRoot } from "hast"
 import { MarkdownContent, ProcessedContent } from "../plugins/vfile"
 import { PerfTimer } from "../util/perf"
 import { read } from "to-vfile"
@@ -17,6 +17,53 @@ import { styleText } from "util"
 
 export type QuartzMdProcessor = Processor<MDRoot, MDRoot, MDRoot>
 export type QuartzHtmlProcessor = Processor<undefined, MDRoot, HTMLRoot>
+
+function footnoteBackContent(_: number, rereferenceIndex: number): ElementContent[] {
+  const content: ElementContent[] = [
+    {
+      type: "element",
+      tagName: "svg",
+      properties: {
+        className: ["footnote-backref-icon"],
+        viewBox: "0 0 24 24",
+        width: 14,
+        height: 14,
+        fill: "none",
+        stroke: "currentColor",
+        strokeWidth: 2,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        ariaHidden: "true",
+        focusable: "false",
+      },
+      children: [
+        {
+          type: "element",
+          tagName: "path",
+          properties: { d: "m9 14-5-5 5-5" },
+          children: [],
+        },
+        {
+          type: "element",
+          tagName: "path",
+          properties: { d: "M4 9h11a5 5 0 0 1 5 5v1" },
+          children: [],
+        },
+      ],
+    },
+  ]
+
+  if (rereferenceIndex > 1) {
+    content.push({
+      type: "element",
+      tagName: "sup",
+      properties: {},
+      children: [{ type: "text", value: String(rereferenceIndex) }],
+    })
+  }
+
+  return content
+}
 
 export function createMdProcessor(ctx: BuildCtx): QuartzMdProcessor {
   const transformers = ctx.cfg.plugins.transformers
@@ -38,7 +85,7 @@ export function createHtmlProcessor(ctx: BuildCtx): QuartzHtmlProcessor {
   return (
     unified()
       // MD AST -> HTML AST
-      .use(remarkRehype, { allowDangerousHtml: true })
+      .use(remarkRehype, { allowDangerousHtml: true, footnoteBackContent })
       // HTML AST -> HTML AST transforms
       .use(transformers.flatMap((plugin) => plugin.htmlPlugins?.(ctx) ?? []))
   )

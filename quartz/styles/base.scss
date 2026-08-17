@@ -357,6 +357,37 @@ a {
   border-top: 1px solid var(--lightgray);
 }
 
+a.data-footnote-backref {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  margin-inline-start: 0.25rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  color: var(--secondary);
+  text-decoration: none;
+  vertical-align: middle;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--highlight);
+    border-color: var(--secondary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+
+  .footnote-backref-icon {
+    display: block;
+  }
+}
+
 input[type="checkbox"] {
   transform: translateY(2px);
   color: var(--secondary);
