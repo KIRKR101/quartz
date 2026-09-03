@@ -19,7 +19,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--light);
-  font-family: var(--bodyFont);
+  font-family: var(--headerFont);
   color: var(--darkgray);
 }
 
@@ -63,6 +63,8 @@ path[class~="typst-shape"] {
 }
 
 article {
+  font-family: var(--bodyFont);
+
   > mjx-container.MathJax,
   blockquote > div > mjx-container.MathJax {
     display: flex;
