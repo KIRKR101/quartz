@@ -10,6 +10,9 @@
   --status-danger: #b42318;
   --status-info: #2563a8;
   --shadow: rgba(0, 0, 0, 0.08);
+  // Consistent transition durations (faster set, 2-tier)
+  --transition-fast: 0.08s;
+  --transition-normal: 0.12s;
 }
 
 :root[saved-theme="dark"] {
@@ -337,8 +340,8 @@ button.desktop-explorer {
 .explorer .fold {
   color: var(--gray);
   transition:
-    transform 0.2s ease,
-    color 0.2s ease;
+    transform var(--transition-normal) ease,
+    color var(--transition-normal) ease;
 }
 
 .folder-icon {
@@ -362,8 +365,8 @@ button.desktop-explorer {
     white-space: nowrap;
     display: block;
     transition:
-      background-color 0.15s ease,
-      color 0.15s ease;
+      background-color var(--transition-fast) ease,
+      color var(--transition-fast) ease;
 
     &:hover {
       background-color: var(--lightgray);
@@ -384,7 +387,7 @@ button.desktop-explorer {
   padding: 0.1rem 0.5rem;
   margin-bottom: 2px;
   border-radius: 5px;
-  transition: background-color 0.15s ease;
+  transition: background-color var(--transition-fast) ease;
 
   &:hover {
     background-color: var(--lightgray);
@@ -404,7 +407,7 @@ button.desktop-explorer {
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-    transition: color 0.15s ease;
+    transition: color var(--transition-fast) ease;
   }
 
   div > button {
@@ -439,7 +442,7 @@ button.desktop-explorer {
 
 li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
   transform: rotate(-90deg);
-  transition: transform 0.2s ease;
+  transition: transform var(--transition-normal) ease;
 }
 
 // Explorer tooltip for truncated items
@@ -462,8 +465,8 @@ li:has(> .folder-outer:not(.open)) > .folder-container > .folder-icon {
   border: 1px solid var(--lightgray);
   box-shadow: 0 1px 6px var(--shadow);
   transition:
-    opacity 0.1s ease,
-    visibility 0.1s ease;
+    opacity var(--transition-fast) ease,
+    visibility var(--transition-fast) ease;
   visibility: hidden;
 
   &.visible {
@@ -511,7 +514,7 @@ button.readermode {
   border-radius: 6px;
   background-color: var(--light);
   box-shadow: 0 1px 2px var(--shadow);
-  transition: all 0.2s ease;
+  transition: all var(--transition-normal) ease;
   font-family: var(--headerFont);
 }
 
@@ -556,7 +559,7 @@ li.section-li > .section {
   a {
     color: var(--darkgray) !important;
     font-size: 0.9rem;
-    transition: color 0.2s ease;
+    transition: color var(--transition-normal) ease;
 
     &:hover {
       color: var(--tertiary) !important;
@@ -575,7 +578,7 @@ li.section-li > .section {
   padding: 0.1rem 0.6rem;
   font-size: 0.8rem;
   color: var(--darkgray);
-  transition: all 0.2s ease;
+  transition: all var(--transition-normal) ease;
 
   &:hover {
     background-color: var(--light);

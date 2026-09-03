@@ -84,7 +84,7 @@ strong {
 a {
   font-weight: $semiBoldWeight;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color var(--transition-normal) ease;
   color: var(--secondary);
 
   &:hover {
@@ -102,7 +102,7 @@ a {
     &.broken {
       color: var(--secondary);
       opacity: 0.5;
-      transition: opacity 0.2s ease;
+      transition: opacity var(--transition-normal) ease;
       &:hover {
         opacity: 0.8;
       }
@@ -371,8 +371,8 @@ a.data-footnote-backref {
   text-decoration: none;
   vertical-align: middle;
   transition:
-    background-color 0.15s ease,
-    border-color 0.15s ease;
+    background-color var(--transition-fast) ease,
+    border-color var(--transition-fast) ease;
 
   &:hover {
     background-color: var(--highlight);
@@ -425,7 +425,7 @@ blockquote {
   margin: 1rem 0;
   border-left: 3px solid var(--secondary);
   padding-left: 1rem;
-  transition: border-color 0.2s ease;
+  transition: border-color var(--transition-normal) ease;
 }
 
 h1,
@@ -455,7 +455,7 @@ h6 {
   &[id] > a[href^="#"] {
     margin: 0 0.5rem;
     opacity: 0;
-    transition: opacity 0.2s ease;
+    transition: opacity var(--transition-normal) ease;
     transform: translateY(-0.1rem);
     font-family: var(--codeFont);
     user-select: none;
@@ -707,6 +707,6 @@ iframe.pdf {
   width: 0;
   height: 3px;
   background: var(--secondary);
-  transition: width 0.2s ease;
+  transition: width var(--transition-normal) ease;
   z-index: 9999;
 }

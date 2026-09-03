@@ -11,7 +11,7 @@
 
   & > .callout-content {
     display: grid;
-    transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: grid-template-rows var(--transition-fast) cubic-bezier(0.02, 0.01, 0.47, 1);
     overflow: hidden;
 
     & > :first-child {
@@ -110,9 +110,9 @@
     .callout-content {
       & > * {
         transition:
-          height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
-          margin 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
-          padding 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+          height var(--transition-fast) cubic-bezier(0.02, 0.01, 0.47, 1),
+          margin var(--transition-fast) cubic-bezier(0.02, 0.01, 0.47, 1),
+          padding var(--transition-fast) cubic-bezier(0.02, 0.01, 0.47, 1);
         overflow-y: clip;
         height: 0;
         margin-bottom: 0;
@@ -137,7 +137,7 @@
   --icon-size: 18px;
 
   & .fold-callout-icon {
-    transition: transform 0.15s ease;
+    transition: transform var(--transition-fast) ease;
     opacity: 0.8;
     cursor: pointer;
     --callout-icon: var(--callout-icon-fold);
