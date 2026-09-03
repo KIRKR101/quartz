@@ -108,7 +108,8 @@ a {
       }
     }
 
-    &:has(> img) {
+    &:has(> img),
+    &[role="anchor"] {
       background-color: transparent;
       border-radius: 0;
       padding: 0;
