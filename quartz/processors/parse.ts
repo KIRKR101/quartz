@@ -30,7 +30,7 @@ function footnoteBackContent(_: number, rereferenceIndex: number): ElementConten
         height: 14,
         fill: "none",
         stroke: "currentColor",
-        strokeWidth: 2,
+        strokeWidth: "2",
         strokeLinecap: "round",
         strokeLinejoin: "round",
         ariaHidden: "true",
