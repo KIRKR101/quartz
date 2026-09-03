@@ -196,6 +196,14 @@ article a:not(.internal):not(.tag-link):hover {
   color: var(--secondary);
 }
 
+article a[href^="#bib-"],
+article a.internal[href^="#bib-"],
+article span[id^="citation--"] a.internal,
+article a[data-footnote-ref],
+article a[data-footnote-backref] {
+  background-color: transparent !important;
+}
+
 // Strong text
 article strong {
   font-weight: 700;
