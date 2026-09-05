@@ -1,0 +1,21 @@
+{
+  "name": "directory-page",
+  "version": "0.1.0",
+  "description": "Virtual /directory page: A-Z index of every published note with letter jump navigation.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.js",
+  "quartz": {
+    "name": "directory-page",
+    "displayName": "Directory Page",
+    "category": [
+      "pageType"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}

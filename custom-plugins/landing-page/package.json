@@ -1,0 +1,40 @@
+{
+  "name": "landing-page",
+  "version": "0.2.0",
+  "description": "Configurable custom home page at /home. Sections are on/off building blocks via options.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.js",
+  "quartz": {
+    "name": "landing-page",
+    "displayName": "Landing Page",
+    "category": [
+      "pageType"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "rootRedirect": false,
+      "sections": {
+        "hero": true,
+        "stats": true,
+        "domains": true,
+        "recent": true,
+        "tags": true,
+        "explore": true
+      },
+      "exploreLinks": {
+        "random": true,
+        "timeline": true,
+        "directory": true,
+        "orphans": true,
+        "tags": true
+      },
+      "recentCount": 6,
+      "tagCount": 12
+    }
+  }
+}
