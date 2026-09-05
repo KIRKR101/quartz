@@ -18,7 +18,7 @@ configuration:
     typography:
       header: Geist
       body: Source Serif 4
-      code: IBM Plex Mono
+      code: Geist
     colors:
       lightMode:
         light: "#fafafa"

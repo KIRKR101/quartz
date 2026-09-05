@@ -249,7 +249,7 @@ ${stylesheet.join("\n\n")}
   /* Font aliases */
   --font-text: var(--bodyFont);
   --font-monospace: var(--codeFont);
-  --font-interface: var(--bodyFont);
+  --font-interface: var(--headerFont);
 
   /* Nav/sidebar */
   --nav-item-color: var(--darkgray);
@@ -320,7 +320,7 @@ ${stylesheet.join("\n\n")}
   /* Font aliases */
   --font-text: var(--bodyFont);
   --font-monospace: var(--codeFont);
-  --font-interface: var(--bodyFont);
+  --font-interface: var(--headerFont);
 
   /* Nav/sidebar */
   --nav-item-color: var(--darkgray);

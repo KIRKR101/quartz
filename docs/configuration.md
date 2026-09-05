@@ -274,7 +274,7 @@ configuration:
       title: Schibsted Grotesk # optional, defaults to header font
       header: Schibsted Grotesk
       body: Source Sans Pro
-      code: IBM Plex Mono
+      code: Schibsted Grotesk
 ```
 
 For more control over font weights and italics, use the TS override in `quartz.ts`:
@@ -291,7 +291,7 @@ const config = await loadQuartzConfig({
         includeItalic: true,
       },
       body: "Source Sans Pro",
-      code: "IBM Plex Mono",
+      code: "Schibsted Grotesk",
     },
   },
 })

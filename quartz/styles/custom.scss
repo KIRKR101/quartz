@@ -39,6 +39,21 @@
   scrollbar-color: var(--gray) transparent;
 }
 
+// Keep every non-prose element on the sans face, including plugin UI.
+body,
+body :not(article):not(article *) {
+  font-family: var(--headerFont) !important;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: var(--bodyFont) !important;
+}
+
 *::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -90,7 +105,7 @@
 
 article {
   margin-top: 2.25rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   line-height: 1.75;
   color: var(--secondary);
 }
@@ -227,7 +242,7 @@ figure pre,
 figure pre code,
 article code,
 article pre {
-  font-family: "IBM Plex Mono", var(--codeFont), monospace !important;
+  font-family: var(--headerFont) !important;
 }
 
 article pre {
