@@ -1,0 +1,21 @@
+{
+  "name": "timeline-page",
+  "version": "0.1.0",
+  "description": "Virtual /timeline page: reverse-chronological feed of recently updated notes, grouped by month.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.js",
+  "quartz": {
+    "name": "timeline-page",
+    "displayName": "Timeline Page",
+    "category": [
+      "pageType"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}

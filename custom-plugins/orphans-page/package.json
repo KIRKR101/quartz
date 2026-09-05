@@ -1,0 +1,21 @@
+{
+  "name": "orphans-page",
+  "version": "0.1.0",
+  "description": "Virtual /orphans page: notes with no incoming links, plus most-linked hubs. Garden maintenance view.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.js",
+  "quartz": {
+    "name": "orphans-page",
+    "displayName": "Orphans Page",
+    "category": [
+      "pageType"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}
