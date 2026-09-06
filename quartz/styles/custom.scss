@@ -219,6 +219,16 @@ article a[data-footnote-backref] {
   background-color: transparent !important;
 }
 
+// Footnote references sit back slightly from the prose around them,
+// returning to full opacity on hover
+article a[data-footnote-ref] {
+  opacity: 0.7;
+}
+
+article a[data-footnote-ref]:hover {
+  opacity: 1;
+}
+
 // Strong text
 article strong {
   font-weight: 700;

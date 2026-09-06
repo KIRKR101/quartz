@@ -46,6 +46,96 @@ async function mouseEnterHandler(
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
+
+  // footnote back-references (the return arrows) never show a popover
+  if (link.hasAttribute("data-footnote-backref")) {
+    return
+  }
+
+  const isFootnote = link.hasAttribute("data-footnote-ref")
+
+  if (isFootnote && hash !== "") {
+    const targetId = hash.slice(1)
+    const footnotePopoverId = `popover-${link.pathname}--${targetId}`
+    // the visible label of the reference being hovered (e.g. "4")
+    const footnoteLabel = (link.textContent ?? "").trim()
+    const prevFootnotePopover = document.getElementById(footnotePopoverId)
+    if (prevFootnotePopover) {
+      showPopover(prevFootnotePopover as HTMLElement)
+      return
+    }
+
+    const sanitizeFootnote = (source: HTMLElement): HTMLElement => {
+      const clone = source.cloneNode(true) as HTMLElement
+      clone.querySelectorAll("[id]").forEach((el) => {
+        el.id = `popover-internal-${el.id}`
+      })
+      // show only the footnote text, not the back-reference arrow
+      clone.querySelectorAll("a[data-footnote-backref]").forEach((el) => el.remove())
+      // unwrap the <li> so the preview shows plain text without a list bullet
+      const wrapper = document.createElement("div")
+      wrapper.id = `popover-internal-${targetId}`
+      while (clone.firstChild) {
+        wrapper.appendChild(clone.firstChild)
+      }
+      // prepend the footnote number (e.g. "4. ") into the first block
+      // so it sits on the same line as the text
+      if (footnoteLabel !== "") {
+        const marker = document.createTextNode(`${footnoteLabel}. `)
+        if (wrapper.firstElementChild) {
+          wrapper.firstElementChild.prepend(marker)
+        } else {
+          wrapper.prepend(marker)
+        }
+      }
+      return wrapper
+    }
+
+    const buildFootnotePopover = (footnote: HTMLElement) => {
+      if (document.getElementById(footnotePopoverId)) {
+        return
+      }
+      const popoverElement = document.createElement("div")
+      popoverElement.id = footnotePopoverId
+      popoverElement.classList.add("popover")
+      const popoverInner = document.createElement("div")
+      popoverInner.classList.add("popover-inner")
+      popoverInner.dataset.contentType = "text/html"
+      popoverInner.appendChild(sanitizeFootnote(footnote))
+      popoverElement.appendChild(popoverInner)
+      document.body.appendChild(popoverElement)
+      if (activeAnchor !== link) {
+        return
+      }
+      clearActivePopover()
+      popoverElement.classList.add("active-popover")
+      setPosition(popoverElement)
+    }
+
+    // footnotes live on the same page, so prefer the live DOM (no fetch)
+    const localFootnote = document.getElementById(targetId) as HTMLElement | null
+    if (localFootnote) {
+      buildFootnotePopover(localFootnote)
+      return
+    }
+
+    // fall back to fetching (e.g. footnote on another page via `page#fn-1`)
+    const footnoteResponse = await fetchCanonical(targetUrl).catch((err) => {
+      console.error(err)
+    })
+    if (footnoteResponse) {
+      const contents = await footnoteResponse.text()
+      const html = p.parseFromString(contents, "text/html")
+      normalizeRelativeURLs(html, targetUrl)
+      const remoteFootnote = html.getElementById(targetId) as unknown as HTMLElement | null
+      if (remoteFootnote) {
+        buildFootnotePopover(remoteFootnote)
+        return
+      }
+    }
+    return
+  }
+
   const popoverId = `popover-${link.pathname}`
   const prevPopoverElement = document.getElementById(popoverId)
 
@@ -126,7 +216,9 @@ function clearActivePopover() {
 }
 
 function setupPopovers() {
-  const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
+  const links = [
+    ...document.querySelectorAll("a.internal, a[data-footnote-ref]"),
+  ] as HTMLAnchorElement[]
   for (const link of links) {
     link.addEventListener("mouseenter", mouseEnterHandler)
     link.addEventListener("mouseleave", clearActivePopover)

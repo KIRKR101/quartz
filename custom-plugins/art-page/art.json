@@ -1,0 +1,2198 @@
+[
+  {
+    "id": "008",
+    "title": "A Distant View of Tivoli",
+    "artist": "Victor Edmond Madeleine Joinville",
+    "date": {
+      "start": 1824,
+      "end": 1824,
+      "circa": false,
+      "label": "1824"
+    },
+    "source": "A Distant View of Tivoli - Victor Edmond Madeleine Joinville - 1824.webp"
+  },
+  {
+    "id": "006",
+    "title": "A Game of L'hombre in Brøndum's Hotel",
+    "artist": "Anna Palm de Rosa",
+    "date": {
+      "start": 1885,
+      "end": 1885,
+      "circa": false,
+      "label": "1885"
+    },
+    "source": "A Game of L'hombre in Brøndum's Hotel - Anna Palm de Rosa - 1885.jpg"
+  },
+  {
+    "id": "181",
+    "title": "A Mother's Duty",
+    "artist": "Pieter de Hooch",
+    "date": {
+      "start": 1660,
+      "end": 1661,
+      "circa": true,
+      "label": "c. 1660–c. 1661"
+    },
+    "source": "A Mother's Duty - Pieter de Hooch - c. 1660–c. 1661.webp"
+  },
+  {
+    "id": "182",
+    "title": "A Musical Party in a Courtyard",
+    "artist": "Pieter de Hooch",
+    "date": {
+      "start": 1677,
+      "end": 1677,
+      "circa": false,
+      "label": "1677"
+    },
+    "source": "A Musical Party in a Courtyard - Pieter de Hooch - 1677.jpg"
+  },
+  {
+    "id": "134",
+    "title": "A Plantain Walk, Jamaica",
+    "artist": "William Berryman",
+    "date": {
+      "start": 1810,
+      "end": 1810,
+      "circa": true,
+      "label": "c. 1810"
+    },
+    "source": "A Plantain Walk, Jamaica - William Berryman - c. 1810.jpg"
+  },
+  {
+    "id": "166",
+    "title": "A View of Delft after the Explosion of 1654",
+    "artist": "Egbert van der Poel",
+    "date": {
+      "start": 1654,
+      "end": 1654,
+      "circa": false,
+      "label": "1654"
+    },
+    "source": "A View of Delft after the Explosion of 1654 - Egbert van der Poel - 1654.jpg"
+  },
+  {
+    "id": "052",
+    "title": "A Village Scene with a Cobbler",
+    "artist": "Jan Victors",
+    "date": {
+      "start": 1650,
+      "end": 1650,
+      "circa": true,
+      "label": "c. 1650"
+    },
+    "source": "A Village Scene with a Cobbler - Jan Victors - c. 1650.jpg"
+  },
+  {
+    "id": "060",
+    "title": "A Water Conduit, a View of Sado",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1921,
+      "end": 1921,
+      "circa": false,
+      "label": "1921"
+    },
+    "source": "A Water Conduit, a View of Sado, from the series Souvenirs of Travels, Second Collection - Kawase Hasui - 1921.jpg"
+  },
+  {
+    "id": "184",
+    "title": "Unknown Dutch Artist",
+    "artist": "A White House among Trees",
+    "date": {
+      "start": 1900,
+      "end": 1999,
+      "circa": true,
+      "label": "1800"
+    },
+    "source": "A White House among Trees - Unknown Dutch Artist - 19th century.webp"
+  },
+  {
+    "id": "009",
+    "title": "Adieu Paris (The Customs)",
+    "artist": "Antonio Mancini",
+    "date": {
+      "start": 1877,
+      "end": 1877,
+      "circa": false,
+      "label": "1877"
+    },
+    "source": "Adieu Paris (The Customs) - Antonio Mancini - 1877.webp"
+  },
+  {
+    "id": "112",
+    "title": "Anna and the Blind Tobit",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1630,
+      "end": 1630,
+      "circa": true,
+      "label": "c. 1630"
+    },
+    "source": "Anna and the Blind Tobit - Rembrandt van Rijn - c. 1630.webp"
+  },
+  {
+    "id": "072",
+    "title": "Asakusa Kinryūzan Temple",
+    "artist": "Tsuchiya Kōitsu",
+    "date": {
+      "start": 1938,
+      "end": 1938,
+      "circa": false,
+      "label": "1938"
+    },
+    "source": "Asakusa Kinryūzan Temple, from the series Sketches of Famous Places in Japan - Tsuchiya Kōitsu - 1938.jpg"
+  },
+  {
+    "id": "098",
+    "title": "At Breakfast with the Morning Papers",
+    "artist": "Laurits Andersen Ring",
+    "date": {
+      "start": 1898,
+      "end": 1898,
+      "circa": false,
+      "label": "1898"
+    },
+    "source": "At Breakfast with the Morning Papers (Ved frokostbordet og morgenaviserne) - Laurits Andersen Ring - 1898.jpg"
+  },
+  {
+    "id": "061",
+    "title": "Autumn at the Arayu Hot Spring, Shiobara",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Autumn at the Arayu Hot Spring, Shiobara, from the series Souvenirs of Travels, First Collection - Kawase Hasui - 1920.jpg"
+  },
+  {
+    "id": "073",
+    "title": "Autumn Garden",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Autumn Garden, from the series Views of the Mitsubishi Villa at Fukagawa - Kawase Hasui - 1920.jpg"
+  },
+  {
+    "id": "089",
+    "title": "Avignon from the West",
+    "artist": "Jean-Baptiste-Camille Corot",
+    "date": {
+      "start": 1836,
+      "end": 1836,
+      "circa": false,
+      "label": "1836"
+    },
+    "source": "Avignon from the West - Jean-Baptiste-Camille Corot - 1836.webp"
+  },
+  {
+    "id": "177",
+    "title": "Banquet of the Officers of the St George Militia Company",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1616,
+      "end": 1616,
+      "circa": false,
+      "label": "1616"
+    },
+    "source": "Banquet of the Officers of the St George Militia Company - Frans Hals - 1616.jpg"
+  },
+  {
+    "id": "151",
+    "title": "Bateaux sur la côte à Étaples",
+    "artist": "Charles-François Daubigny",
+    "date": {
+      "start": 1871,
+      "end": 1871,
+      "circa": false,
+      "label": "1871"
+    },
+    "source": "Bateaux sur la côte à Étaples - Charles-François Daubigny - 1871.jpg"
+  },
+  {
+    "id": "120",
+    "title": "Beauty Revealed",
+    "artist": "Sarah Goodridge",
+    "date": {
+      "start": 1828,
+      "end": 1828,
+      "circa": false,
+      "label": "1828"
+    },
+    "source": "Beauty Revealed - Sarah Goodridge - 1828.jpg"
+  },
+  {
+    "id": "108",
+    "title": "Bridge at Subiaco",
+    "artist": "Attributed to Jean-Antoine Constantin",
+    "date": {
+      "start": 1777,
+      "end": 1777,
+      "circa": true,
+      "label": "c. 1777"
+    },
+    "source": "Bridge at Subiaco - Attributed to Jean-Antoine Constantin - c. 1777.jpg"
+  },
+  {
+    "id": "148",
+    "title": "Calling Home the Cows",
+    "artist": "Jean-François Millet",
+    "date": {
+      "start": 1866,
+      "end": 1866,
+      "circa": false,
+      "label": "1866"
+    },
+    "source": "Calling Home the Cows - Jean-François Millet - 1866.jpg"
+  },
+  {
+    "id": "004",
+    "title": "Chalets at Rigi",
+    "artist": "Alexandre Calame",
+    "date": {
+      "start": 1861,
+      "end": 1861,
+      "circa": false,
+      "label": "1861"
+    },
+    "source": "Chalets at Rigi - Alexandre Calame - 1861.webp"
+  },
+  {
+    "id": "054",
+    "title": "Chuzenji Utagahama",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1931,
+      "end": 1931,
+      "circa": false,
+      "label": "1931"
+    },
+    "source": "Chuzenji Utagahama - Kawase Hasui - 1931.jpg"
+  },
+  {
+    "id": "062",
+    "title": "Cloudy Day at Mizuki, Ibaraki Prefecture (Mizuki no Komoribi)",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1946,
+      "end": 1946,
+      "circa": false,
+      "label": "1946"
+    },
+    "source": "Cloudy Day at Mizuki, Ibaraki Prefecture (Mizuki no Komoribi) - Kawase Hasui - 1946.jpg"
+  },
+  {
+    "id": "128",
+    "title": "Coastal Scene",
+    "artist": "Théo van Rysselberghe",
+    "date": {
+      "start": 1892,
+      "end": 1892,
+      "circa": true,
+      "label": "c. 1892"
+    },
+    "source": "Coastal Scene - Théo van Rysselberghe - c. 1892.webp"
+  },
+  {
+    "id": "129",
+    "title": "Coastal Scene, Capri",
+    "artist": "Thomas Fearnley",
+    "date": {
+      "start": 1833,
+      "end": 1833,
+      "circa": false,
+      "label": "1833"
+    },
+    "source": "Coastal Scene, Capri - Thomas Fearnley - 1833.webp"
+  },
+  {
+    "id": "153",
+    "title": "Bridge over the Cours de Vincennes",
+    "artist": "Paul Trouillebert",
+    "date": {
+      "start": 1888,
+      "end": 1888,
+      "circa": false,
+      "label": "1888"
+    },
+    "source": "Construction of an Elevated Railway, Bridge over the Cours de Vincennes, Cleveland Museum of Art. - Paul Trouillebert - 1888.jpg"
+  },
+  {
+    "id": "176",
+    "title": "Copy of a lost self-portrait from Hals",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1650,
+      "end": 1659,
+      "circa": true,
+      "label": "1650s"
+    },
+    "source": "Copy of a lost self-portrait from Hals - Frans Hals - 1650s.jpg"
+  },
+  {
+    "id": "136",
+    "title": "Cottage by a Ditch",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1870,
+      "end": 1888,
+      "circa": true,
+      "label": "c. 1870–1888"
+    },
+    "source": "Cottage by a Ditch, Rijkmuseum Amsterdam. - Anton Mauve - c. 1870–1888.jpeg"
+  },
+  {
+    "id": "137",
+    "title": "Cottage on the Dirt Road",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1870,
+      "end": 1888,
+      "circa": true,
+      "label": "c. 1870–1888"
+    },
+    "source": "Cottage on the Dirt Road, Rijkmuseum Amsterdam. - Anton Mauve - c. 1870–1888.jpeg"
+  },
+  {
+    "id": "107",
+    "title": "Cow-Shed and Houses on the Palatine Hill",
+    "artist": "Pierre-Henri de Valenciennes",
+    "date": {
+      "start": 1782,
+      "end": 1782,
+      "circa": true,
+      "label": "c. 1782"
+    },
+    "source": "Cow-Shed and Houses on the Palatine Hill - Pierre-Henri de Valenciennes - c. 1782.webp"
+  },
+  {
+    "id": "084",
+    "title": "Cryptomeria Avenue (Sugi Namiki)",
+    "artist": "Hiroshi Yoshida",
+    "date": {
+      "start": 1937,
+      "end": 1937,
+      "circa": false,
+      "label": "1937"
+    },
+    "source": "Cryptomeria Avenue (Sugi Namiki) - Hiroshi Yoshida - 1937.jpg"
+  },
+  {
+    "id": "101",
+    "title": "Dancing and Singing – Peasants Returning from Work",
+    "artist": "Ma Yuan",
+    "date": {
+      "start": 1200,
+      "end": 1200,
+      "circa": true,
+      "label": "c. 1200"
+    },
+    "source": "Dancing and Singing – Peasants Returning from Work - Ma Yuan - c. 1200.jpg"
+  },
+  {
+    "id": "165",
+    "title": "Dorf in den Dünen",
+    "artist": "Julius Jacobus van de Sande Bakhuyzen",
+    "date": {
+      "start": 1885,
+      "end": 1890,
+      "circa": true,
+      "label": "c. 1885–c. 1890"
+    },
+    "source": "Dorf in den Dünen - Julius Jacobus van de Sande Bakhuyzen - c. 1885–c. 1890.jpg"
+  },
+  {
+    "id": "157",
+    "title": "Ducks",
+    "artist": "Willem Maris",
+    "date": {
+      "start": 1880,
+      "end": 1904,
+      "circa": true,
+      "label": "c. 1880–c. 1904"
+    },
+    "source": "Ducks - Willem Maris - c. 1880–c. 1904.jpg"
+  },
+  {
+    "id": "063",
+    "title": "Dusk at Kiba",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Dusk at Kiba, from the series Twelve Scenes of Tokyo - Kawase Hasui - 1920.jpg"
+  },
+  {
+    "id": "085",
+    "title": "Evening on the Chikugo River",
+    "artist": "Hiroshi Yoshida",
+    "date": {
+      "start": 1927,
+      "end": 1927,
+      "circa": false,
+      "label": "1927"
+    },
+    "source": "Evening on the Chikugo River - Hiroshi Yoshida - 1927.jpg"
+  },
+  {
+    "id": "053",
+    "title": "Evening Rain in Kawarago",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1947,
+      "end": 1947,
+      "circa": false,
+      "label": "1947"
+    },
+    "source": "Evening Rain in Kawarago - Kawase Hasui - 1947.jpg"
+  },
+  {
+    "id": "036",
+    "title": "Excavation of the Roman Theatre at Orange",
+    "artist": "Unknown French Artist",
+    "date": {
+      "start": 1855,
+      "end": 1855,
+      "circa": true,
+      "label": "c. 1855"
+    },
+    "source": "Excavation of the Roman Theatre at Orange - Unknown French Artist - c. 1855.webp"
+  },
+  {
+    "id": "102",
+    "title": "Fantine",
+    "artist": "Margaret Bernadine Hall",
+    "date": {
+      "start": 1886,
+      "end": 1886,
+      "circa": true,
+      "label": "c. 1886"
+    },
+    "source": "Fantine - Margaret Bernadine Hall - c. 1886.jpg"
+  },
+  {
+    "id": "023",
+    "title": "Farm at Kerity, Brittany",
+    "artist": "Charles-François Daubigny",
+    "date": {
+      "start": 1838,
+      "end": 1878,
+      "circa": false,
+      "label": "1838–1878"
+    },
+    "source": "Farm at Kerity, Brittany - Charles-François Daubigny - 1838–1878.jpg"
+  },
+  {
+    "id": "135",
+    "title": "Forest Edge on the Water",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1848,
+      "end": 1888,
+      "circa": true,
+      "label": "c. 1848–1888"
+    },
+    "source": "Forest Edge on the Water - Anton Mauve - c. 1848–1888.jpeg"
+  },
+  {
+    "id": "109",
+    "title": "Frederick Rihel on Horseback",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1663,
+      "end": 1663,
+      "circa": false,
+      "label": "1663"
+    },
+    "source": "Frederick Rihel on Horseback - Rembrandt van Rijn - 1663.jpg"
+  },
+  {
+    "id": "032",
+    "title": "From a Roman Osteria",
+    "artist": "Carl Bloch",
+    "date": {
+      "start": 1866,
+      "end": 1866,
+      "circa": false,
+      "label": "1866"
+    },
+    "source": "From a Roman Osteria (Fra et romersk osteria) - Carl Bloch - 1866.webp"
+  },
+  {
+    "id": "121",
+    "title": "Gassed",
+    "artist": "John Singer Sargent",
+    "date": {
+      "start": 1919,
+      "end": 1919,
+      "circa": false,
+      "label": "1919"
+    },
+    "source": "Gassed - John Singer Sargent - 1919.webp"
+  },
+  {
+    "id": "163",
+    "title": "Gezicht op de Dam te Amsterdam",
+    "artist": "George Hendrik Breitner",
+    "date": {
+      "start": 1895,
+      "end": 1895,
+      "circa": true,
+      "label": "c. 1895"
+    },
+    "source": "Gezicht op de Dam te Amsterdam - George Hendrik Breitner - c. 1895.jpg"
+  },
+  {
+    "id": "100",
+    "title": "God Speed!",
+    "artist": "Edmund Leighton",
+    "date": {
+      "start": 1900,
+      "end": 1900,
+      "circa": false,
+      "label": "1900"
+    },
+    "source": "God Speed! - Edmund Leighton - 1900.jpg"
+  },
+  {
+    "id": "042",
+    "title": "Gorge at Civita Castellana",
+    "artist": "Jean-Joseph-Xavier Bidauld",
+    "date": {
+      "start": 1790,
+      "end": 1790,
+      "circa": true,
+      "label": "c. 1790"
+    },
+    "source": "Gorge at Civita Castellana - Jean-Joseph-Xavier Bidauld - c. 1790.jpg"
+  },
+  {
+    "id": "043",
+    "title": "Guernica",
+    "artist": "Pablo Picasso",
+    "date": {
+      "start": 1937,
+      "end": 1937,
+      "circa": false,
+      "label": "1937"
+    },
+    "source": "Guernica - Pablo Picasso - 1937.webp"
+  },
+  {
+    "id": "024",
+    "title": "Harvest",
+    "artist": "Charles-François Daubigny",
+    "date": {
+      "start": 1851,
+      "end": 1851,
+      "circa": false,
+      "label": "1851"
+    },
+    "source": "Harvest - Charles-François Daubigny - 1851.jpg"
+  },
+  {
+    "id": "029",
+    "title": "Head of a Man in the Style of Frans Hals",
+    "artist": "Homer Dodge Martin",
+    "date": {
+      "start": 1860,
+      "end": 1860,
+      "circa": true,
+      "label": "c. 1860"
+    },
+    "source": "Head of a Man in the Style of Frans Hals - Homer Dodge Martin - c. 1860.jpg"
+  },
+  {
+    "id": "162",
+    "title": "Het breistertje",
+    "artist": "Bernard Blommers",
+    "date": {
+      "start": 1885,
+      "end": 1886,
+      "circa": false,
+      "label": "1885–1886"
+    },
+    "source": "Het breistertje - Bernard Blommers - 1885–1886.jpg"
+  },
+  {
+    "id": "057",
+    "title": "Honmon Temple, Ikegami",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1931,
+      "end": 1931,
+      "circa": false,
+      "label": "1931"
+    },
+    "source": "Honmon Temple, Ikegami - Kawase Hasui - 1931.jpg"
+  },
+  {
+    "id": "007",
+    "title": "House on the Cliffs near Fécamp",
+    "artist": "Antoine Chintreuil",
+    "date": {
+      "start": 1861,
+      "end": 1861,
+      "circa": false,
+      "label": "1861"
+    },
+    "source": "House on the Cliffs near Fécamp - Antoine Chintreuil - 1861.jpg"
+  },
+  {
+    "id": "158",
+    "title": "In t' gein bij Adcoude",
+    "artist": "Willem Roelofs",
+    "date": {
+      "start": 1870,
+      "end": 1870,
+      "circa": false,
+      "label": "1870"
+    },
+    "source": "In t' gein bij Adcoude - Willem Roelofs - 1870.jpg"
+  },
+  {
+    "id": "090",
+    "title": "Italian View with Ruins and a Herd",
+    "artist": "Jean-Joseph-Xavier Bidauld",
+    "date": {
+      "start": 1820,
+      "end": 1820,
+      "circa": true,
+      "label": "c. 1820"
+    },
+    "source": "Italian View with Ruins and a Herd - Jean-Joseph-Xavier Bidauld - c. 1820.jpg"
+  },
+  {
+    "id": "059",
+    "title": "Junks in Inatori Bay, Izu",
+    "artist": "Takahashi Shōtei (Hiroaki)",
+    "date": {
+      "start": 1930,
+      "end": 1930,
+      "circa": true,
+      "label": "c. 1930"
+    },
+    "source": "Junks in Inatori Bay, Izu - Takahashi Shōtei (Hiroaki) - c. 1930.jpg"
+  },
+  {
+    "id": "058",
+    "title": "Karahashi at Seta",
+    "artist": "Itō Shinsui",
+    "date": {
+      "start": 1918,
+      "end": 1918,
+      "circa": false,
+      "label": "1918"
+    },
+    "source": "Karahashi at Seta, from the series Eight Views of Ōmi - Itō Shinsui - 1918.jpg"
+  },
+  {
+    "id": "080",
+    "title": "Kintai Bridge, Suō",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1924,
+      "end": 1924,
+      "circa": false,
+      "label": "1924"
+    },
+    "source": "Kintai Bridge, Suō, from the series Souvenirs of Travels, Third Collection - Kawase Hasui - 1924.jpg"
+  },
+  {
+    "id": "069",
+    "title": "Kiyomizu Temple in Snow",
+    "artist": "Tsuchiya Kōitsu",
+    "date": {
+      "start": 1935,
+      "end": 1935,
+      "circa": true,
+      "label": "c. 1935"
+    },
+    "source": "Kiyomizu Temple in Snow - Tsuchiya Kōitsu - c. 1935.jpg"
+  },
+  {
+    "id": "064",
+    "title": "Lake Kugushi, Wakasa",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Lake Kugushi, Wakasa, from the series Souvenirs of Travels, First Collection - Kawase Hasui - 1920.jpg"
+  },
+  {
+    "id": "094",
+    "title": "Lake of Vico between Rome and Florence",
+    "artist": "John Robert Cozens",
+    "date": {
+      "start": 1783,
+      "end": 1783,
+      "circa": true,
+      "label": "c. 1783"
+    },
+    "source": "Lake of Vico between Rome and Florence - John Robert Cozens - c. 1783.jpg"
+  },
+  {
+    "id": "097",
+    "title": "Landscape with a Village in the Distance",
+    "artist": "Jacob van Ruisdael",
+    "date": {
+      "start": 1646,
+      "end": 1646,
+      "circa": false,
+      "label": "1646"
+    },
+    "source": "Landscape with a Village in the Distance - Jacob van Ruisdael - 1646.jpg"
+  },
+  {
+    "id": "155",
+    "title": "Landscape with two trees",
+    "artist": "Paul Gabriël",
+    "date": {
+      "start": 1860,
+      "end": 1860,
+      "circa": false,
+      "label": "1860"
+    },
+    "source": "Landscape with two trees - Paul Gabriël - 1860.jpg"
+  },
+  {
+    "id": "047",
+    "title": "Landscape with Waterfall",
+    "artist": "Jacob Isaackszoon van Ruisdael",
+    "date": {
+      "start": 1660,
+      "end": 1660,
+      "circa": true,
+      "label": "c. 1660"
+    },
+    "source": "Landscape with Waterfall (Landschap met waterval) - Jacob Isaackszoon van Ruisdael - c. 1660.jpg"
+  },
+  {
+    "id": "021",
+    "title": "Laughing Cavalier",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1624,
+      "end": 1624,
+      "circa": true,
+      "label": "c. 1624"
+    },
+    "source": "Laughing Cavalier - Frans Hals - c. 1624.jpg"
+  },
+  {
+    "id": "095",
+    "title": "Lord Ribblesdale",
+    "artist": "John Singer Sargent",
+    "date": {
+      "start": 1902,
+      "end": 1902,
+      "circa": false,
+      "label": "1902"
+    },
+    "source": "Lord Ribblesdale - John Singer Sargent - 1902.webp"
+  },
+  {
+    "id": "048",
+    "title": "Low Waterfall in a Hilly Landscape with a Thatched Cottage",
+    "artist": "Jacob van Ruisdael",
+    "date": {
+      "start": 1660,
+      "end": 1660,
+      "circa": true,
+      "label": "c. 1660"
+    },
+    "source": "Low Waterfall in a Hilly Landscape with a Thatched Cottage - Jacob van Ruisdael - c. 1660.jpg"
+  },
+  {
+    "id": "178",
+    "title": "Malle Babbe",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1640,
+      "end": 1646,
+      "circa": true,
+      "label": "c. 1640–1646"
+    },
+    "source": "Malle Babbe - Frans Hals - c. 1640–1646.jpg"
+  },
+  {
+    "id": "039",
+    "title": "Man on Horseback",
+    "artist": "Gerard ter Borch",
+    "date": {
+      "start": 1634,
+      "end": 1634,
+      "circa": false,
+      "label": "1634"
+    },
+    "source": "Man on Horseback - Gerard ter Borch - 1634.jpg"
+  },
+  {
+    "id": "011",
+    "title": "Man Reading",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1648,
+      "end": 1648,
+      "circa": false,
+      "label": "1648"
+    },
+    "source": "Man Reading - Rembrandt van Rijn - 1648.webp"
+  },
+  {
+    "id": "115",
+    "title": "Man with the Golden Helmet",
+    "artist": "Circle of Rembrandt van Rijn",
+    "date": {
+      "start": 1650,
+      "end": 1650,
+      "circa": true,
+      "label": "c. 1650"
+    },
+    "source": "Man with the Golden Helmet - Circle of Rembrandt van Rijn - c. 1650.jpg"
+  },
+  {
+    "id": "065",
+    "title": "Moonlit Night, Daisensui Pond",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Moonlit Night, Daisensui Pond, from the series The Mitsubishi Villa at Fukagawa - Kawase Hasui - 1920.jpg"
+  },
+  {
+    "id": "019",
+    "title": "Moonrise over the Sea",
+    "artist": "Caspar David Friedrich",
+    "date": {
+      "start": 1822,
+      "end": 1822,
+      "circa": false,
+      "label": "1822"
+    },
+    "source": "Moonrise over the Sea (Mondaufgang am Meer) - Caspar David Friedrich - 1822.jpg"
+  },
+  {
+    "id": "020",
+    "title": "Moonrise by the Sea",
+    "artist": "Caspar David Friedrich",
+    "date": {
+      "start": 1821,
+      "end": 1821,
+      "circa": false,
+      "label": "1821"
+    },
+    "source": "Moonrise over the Sea (Mondaufgang über dem Meer) - Caspar David Friedrich - 1822.jpg"
+  },
+  {
+    "id": "123",
+    "title": "Morning in a Pine Forest",
+    "artist": "Ivan Shishkin and Konstantin Savitsky",
+    "date": {
+      "start": 1889,
+      "end": 1889,
+      "circa": false,
+      "label": "1889"
+    },
+    "source": "Morning in a Pine Forest - Ivan Shishkin and Konstantin Savitsky - 1889.webp"
+  },
+  {
+    "id": "038",
+    "title": "Morning in the Mountains",
+    "artist": "Caspar David Friedrich",
+    "date": {
+      "start": 1822,
+      "end": 1823,
+      "circa": false,
+      "label": "1822–1823"
+    },
+    "source": "Morning in the Mountains - Caspar David Friedrich - 1822–1823.jpg"
+  },
+  {
+    "id": "138",
+    "title": "Morning Ride along the Beach",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1876,
+      "end": 1876,
+      "circa": false,
+      "label": "1876"
+    },
+    "source": "Morning Ride along the Beach - Anton Mauve - 1876.jpg"
+  },
+  {
+    "id": "075",
+    "title": "Mount Fuji from Lake Ashinoko at Hakone",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1935,
+      "end": 1935,
+      "circa": false,
+      "label": "1935"
+    },
+    "source": "Mount Fuji from Lake Ashinoko at Hakone - Kawase Hasui - 1935.jpg"
+  },
+  {
+    "id": "088",
+    "title": "Mount Hodaka",
+    "artist": "Hiroshi Yoshida",
+    "date": {
+      "start": 1926,
+      "end": 1926,
+      "circa": false,
+      "label": "1926"
+    },
+    "source": "Mount Hodaka, from the series Twelve Views of the Japan Alps - Hiroshi Yoshida - 1926.jpg"
+  },
+  {
+    "id": "003",
+    "title": "Mountain Tops (A Mountain Study)",
+    "artist": "Alexander Cozens",
+    "date": {
+      "start": 1780,
+      "end": 1780,
+      "circa": false,
+      "label": "1780"
+    },
+    "source": "Mountain Tops (A Mountain Study) - Alexander Cozens - 1780.jpg"
+  },
+  {
+    "id": "103",
+    "title": "Mountain Torrent",
+    "artist": "Jacob van Ruisdael",
+    "date": {
+      "start": 1675,
+      "end": 1675,
+      "circa": true,
+      "label": "c. 1675"
+    },
+    "source": "Mountain Torrent - Jacob van Ruisdael - c. 1675.jpg"
+  },
+  {
+    "id": "070",
+    "title": "Nara Hōryūji Temple",
+    "artist": "Tsuchiya Kōitsu",
+    "date": {
+      "start": 1938,
+      "end": 1938,
+      "circa": false,
+      "label": "1938"
+    },
+    "source": "Nara Hōryūji Temple - Tsuchiya Kōitsu - 1938.jpg"
+  },
+  {
+    "id": "035",
+    "title": "Niagara Falls, from the American Side",
+    "artist": "Frederic Edwin Church",
+    "date": {
+      "start": 1867,
+      "end": 1867,
+      "circa": false,
+      "label": "1867"
+    },
+    "source": "Niagara Falls, from the American Side - Frederic Edwin Church - 1867.jpg"
+  },
+  {
+    "id": "055",
+    "title": "Nikkō Highway",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1930,
+      "end": 1930,
+      "circa": false,
+      "label": "1930"
+    },
+    "source": "Nikkō Highway - Kawase Hasui - 1930.jpg"
+  },
+  {
+    "id": "141",
+    "title": "On the Heath near Laren",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1887,
+      "end": 1887,
+      "circa": false,
+      "label": "1887"
+    },
+    "source": "On the Heath near Laren - Anton Mauve - 1887.jpeg"
+  },
+  {
+    "id": "106",
+    "title": "Pallas Athena",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1655,
+      "end": 1655,
+      "circa": true,
+      "label": "c. 1655"
+    },
+    "source": "Pallas Athena - Rembrandt van Rijn - c. 1655.jpg"
+  },
+  {
+    "id": "074",
+    "title": "Panoramic View of Daisensui Pond",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Panoramic View of Daisensui Pond, from the series Views of the Mitsubishi Villa at Fukagawa - Kawase Hasui - 1920.jpg"
+  },
+  {
+    "id": "025",
+    "title": "Passing Trams",
+    "artist": "Clarice Beckett",
+    "date": {
+      "start": 1931,
+      "end": 1931,
+      "circa": true,
+      "label": "c. 1931"
+    },
+    "source": "Passing Trams - Clarice Beckett - c. 1931.jpg"
+  },
+  {
+    "id": "161",
+    "title": "Peasant Family at the Table",
+    "artist": "Jozef Israëls",
+    "date": {
+      "start": 1882,
+      "end": 1882,
+      "circa": false,
+      "label": "1882"
+    },
+    "source": "Peasant Family at the Table - Jozef Israëls - 1882.jpg"
+  },
+  {
+    "id": "110",
+    "title": "Portrait of a Man in a Gorget Holding a Plumed Hat",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1630,
+      "end": 1630,
+      "circa": true,
+      "label": "c. 1630"
+    },
+    "source": "Portrait of a Man in a Gorget Holding a Plumed Hat - Rembrandt van Rijn - c. 1630.jpg"
+  },
+  {
+    "id": "169",
+    "title": "Portrait of Abraham de Potter",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1649,
+      "end": 1649,
+      "circa": false,
+      "label": "1649"
+    },
+    "source": "Portrait of Abraham de Potter - Carel Fabritius - 1649.jpg"
+  },
+  {
+    "id": "040",
+    "title": "Portrait of Doge Leonardo Loredan",
+    "artist": "Giovanni Bellini",
+    "date": {
+      "start": 1501,
+      "end": 1502,
+      "circa": false,
+      "label": "1501–1502"
+    },
+    "source": "Portrait of Doge Leonardo Loredan - Giovanni Bellini - 1501–1502.jpg"
+  },
+  {
+    "id": "051",
+    "title": "Portrait of Francis Poictevin",
+    "artist": "Jacques-Émile Blanche",
+    "date": {
+      "start": 1887,
+      "end": 1887,
+      "circa": false,
+      "label": "1887"
+    },
+    "source": "Portrait of Francis Poictevin - Jacques-Émile Blanche - 1887.webp"
+  },
+  {
+    "id": "130",
+    "title": "Portrait of Fyodor Dostoevsky",
+    "artist": "Vasily Perov",
+    "date": {
+      "start": 1872,
+      "end": 1872,
+      "circa": false,
+      "label": "1872"
+    },
+    "source": "Portrait of Fyodor Dostoevsky (Портрет Ф. М. Достоевского) - Vasily Perov - 1872.jpg"
+  },
+  {
+    "id": "175",
+    "title": "Portrait of Nicolaes Hasselaer",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1630,
+      "end": 1635,
+      "circa": true,
+      "label": "c. 1630–1635"
+    },
+    "source": "Portrait of Nicolaes Hasselaer - Frans Hals - c. 1630–1635.jpg"
+  },
+  {
+    "id": "104",
+    "title": "Portrait of Nicolaus Kratzer",
+    "artist": "Hans Holbein the Younger",
+    "date": {
+      "start": 1528,
+      "end": 1528,
+      "circa": false,
+      "label": "1528"
+    },
+    "source": "Portrait of Nicolaus Kratzer - Hans Holbein the Younger - 1528.jpg"
+  },
+  {
+    "id": "012",
+    "title": "Portrait of Paul Cézanne",
+    "artist": "Camille Pissarro",
+    "date": {
+      "start": 1874,
+      "end": 1874,
+      "circa": false,
+      "label": "1874"
+    },
+    "source": "Portrait of Paul Cézanne - Camille Pissarro - 1874.webp"
+  },
+  {
+    "id": "105",
+    "title": "Portrait of the Artist's Wife",
+    "artist": "Otto Franz Scholderer",
+    "date": {
+      "start": 1872,
+      "end": 1872,
+      "circa": true,
+      "label": "c. 1872"
+    },
+    "source": "Portrait of the Artist's Wife - Otto Franz Scholderer - c. 1872.webp"
+  },
+  {
+    "id": "076",
+    "title": "Rain at Maekawa",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1932,
+      "end": 1932,
+      "circa": false,
+      "label": "1932"
+    },
+    "source": "Rain at Maekawa - Kawase Hasui - 1932.jpg"
+  },
+  {
+    "id": "086",
+    "title": "Rapids",
+    "artist": "Hiroshi Yoshida",
+    "date": {
+      "start": 1928,
+      "end": 1928,
+      "circa": false,
+      "label": "1928"
+    },
+    "source": "Rapids - Hiroshi Yoshida - 1928.jpg"
+  },
+  {
+    "id": "077",
+    "title": "Remaining Snow at Inokashira",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1932,
+      "end": 1932,
+      "circa": false,
+      "label": "1932"
+    },
+    "source": "Remaining Snow at Inokashira - Kawase Hasui - 1932.jpg"
+  },
+  {
+    "id": "143",
+    "title": "Road by the Water",
+    "artist": "Jean-Baptiste-Camille Corot",
+    "date": {
+      "start": 1865,
+      "end": 1870,
+      "circa": true,
+      "label": "c. 1865–1870"
+    },
+    "source": "Road by the Water - Jean-Baptiste-Camille Corot - c. 1865–1870.jpg"
+  },
+  {
+    "id": "096",
+    "title": "Road in the Village of Baldersbrønde (Winter Day)",
+    "artist": "Laurits Andersen Ring",
+    "date": {
+      "start": 1912,
+      "end": 1912,
+      "circa": false,
+      "label": "1912"
+    },
+    "source": "Road in the Village of Baldersbrønde (Winter Day) - Laurits Andersen Ring - 1912.webp"
+  },
+  {
+    "id": "026",
+    "title": "Rue de la Bavole, Honfleur",
+    "artist": "Claude Monet",
+    "date": {
+      "start": 1864,
+      "end": 1864,
+      "circa": false,
+      "label": "1864"
+    },
+    "source": "Rue de la Bavole, Honfleur - Claude Monet - 1864.jpg"
+  },
+  {
+    "id": "119",
+    "title": "Saint Anastasius",
+    "artist": "After Rembrandt van Rijn",
+    "date": {
+      "start": 1631,
+      "end": 1631,
+      "circa": false,
+      "label": "1631"
+    },
+    "source": "Saint Anastasius (after Rembrandt) - After Rembrandt van Rijn - 1631.webp"
+  },
+  {
+    "id": "118",
+    "title": "Saint Francis in Meditation",
+    "artist": "Francisco de Zurbarán",
+    "date": {
+      "start": 1635,
+      "end": 1635,
+      "circa": true,
+      "label": "c. 1635"
+    },
+    "source": "Saint Francis in Meditation - Francisco de Zurbarán - c. 1635.webp"
+  },
+  {
+    "id": "010",
+    "title": "Saints Augustine and Monica",
+    "artist": "Ary Scheffer",
+    "date": {
+      "start": 1854,
+      "end": 1854,
+      "circa": false,
+      "label": "1854"
+    },
+    "source": "Saints Augustine and Monica - Ary Scheffer - 1854.webp"
+  },
+  {
+    "id": "067",
+    "title": "Saishōin Temple in Snow, Hirosaki",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1936,
+      "end": 1936,
+      "circa": false,
+      "label": "1936"
+    },
+    "source": "Saishōin Temple in Snow, Hirosaki - Kawase Hasui - 1936.jpg"
+  },
+  {
+    "id": "005",
+    "title": "Saudade (Longing)",
+    "artist": "Almeida Júnior",
+    "date": {
+      "start": 1899,
+      "end": 1899,
+      "circa": false,
+      "label": "1899"
+    },
+    "source": "Saudade (Longing) - Almeida Júnior - 1899.webp"
+  },
+  {
+    "id": "066",
+    "title": "Seaside Cottage, Himi, Etchū",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1921,
+      "end": 1921,
+      "circa": false,
+      "label": "1921"
+    },
+    "source": "Seaside Cottage, Himi, Etchū, from the series Souvenirs of Travels, Second Collection - Kawase Hasui - 1921.jpg"
+  },
+  {
+    "id": "114",
+    "title": "Seated Old Man",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1630,
+      "end": 1630,
+      "circa": true,
+      "label": "c. 1630"
+    },
+    "source": "Seated Old Man - Rembrandt van Rijn - c. 1630.jpg"
+  },
+  {
+    "id": "168",
+    "title": "Self-Portrait",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1647,
+      "end": 1648,
+      "circa": true,
+      "label": "c. 1647–1648"
+    },
+    "source": "Self-Portrait - Carel Fabritius - c. 1647–1648.jpg"
+  },
+  {
+    "id": "116",
+    "title": "Self-Portrait",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1630,
+      "end": 1630,
+      "circa": true,
+      "label": "c. 1630"
+    },
+    "source": "Self-Portrait - Rembrandt van Rijn - c. 1630.webp"
+  },
+  {
+    "id": "081",
+    "title": "Shin-Ōhashi Bridge",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1926,
+      "end": 1926,
+      "circa": false,
+      "label": "1926"
+    },
+    "source": "Shin-Ōhashi Bridge, from the series Twenty Views of Tokyo (Tōkyō nijūkei) - Kawase Hasui - 1926.jpg"
+  },
+  {
+    "id": "078",
+    "title": "Shirahone Hot Spring",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1933,
+      "end": 1933,
+      "circa": false,
+      "label": "1933"
+    },
+    "source": "Shirahone Hot Spring - Kawase Hasui - 1933.jpg"
+  },
+  {
+    "id": "022",
+    "title": "Smoke of a .45",
+    "artist": "Charles Marion Russell",
+    "date": {
+      "start": 1908,
+      "end": 1908,
+      "circa": false,
+      "label": "1908"
+    },
+    "source": "Smoke of a .45 - Charles Marion Russell - 1908.jpg"
+  },
+  {
+    "id": "113",
+    "title": "St. Bartholomew",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1661,
+      "end": 1661,
+      "circa": false,
+      "label": "1661"
+    },
+    "source": "St. Bartholomew - Rembrandt van Rijn - 1661.jpg"
+  },
+  {
+    "id": "125",
+    "title": "Sunset",
+    "artist": "Caspar David Friedrich",
+    "date": {
+      "start": 1830,
+      "end": 1830,
+      "circa": true,
+      "label": "c. 1830"
+    },
+    "source": "Sunset - Caspar David Friedrich - c. 1830.jpg"
+  },
+  {
+    "id": "180",
+    "title": "Figures in a Courtyard",
+    "artist": "Pieter de Hooch",
+    "date": {
+      "start": 1658,
+      "end": 1658,
+      "circa": false,
+      "label": "1658"
+    },
+    "source": "The architecture of courtyards stood common in Delft - Pieter de Hooch - 1658.webp"
+  },
+  {
+    "id": "183",
+    "title": "The Art of Painting",
+    "artist": "Johannes Vermeer",
+    "date": {
+      "start": 1666,
+      "end": 1668,
+      "circa": true,
+      "label": "c. 1666–1668"
+    },
+    "source": "The Art of Painting - Johannes Vermeer - c. 1666–1668.jpg"
+  },
+  {
+    "id": "154",
+    "title": "The beach of Scheveningen",
+    "artist": "Johannes Bosboom",
+    "date": {
+      "start": 1873,
+      "end": 1873,
+      "circa": false,
+      "label": "1873"
+    },
+    "source": "The beach of Scheveningen - Johannes Bosboom - 1873.jpg"
+  },
+  {
+    "id": "167",
+    "title": "The Beheading of John the Baptist",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1640,
+      "end": 1649,
+      "circa": true,
+      "label": "1640s"
+    },
+    "source": "The Beheading of John the Baptist - Carel Fabritius - 1640s.jpg"
+  },
+  {
+    "id": "016",
+    "title": "The Capuchin Convent at Amalfi",
+    "artist": "Carl Blechen",
+    "date": {
+      "start": 1829,
+      "end": 1829,
+      "circa": true,
+      "label": "c. 1829"
+    },
+    "source": "The Capuchin Convent at Amalfi - Carl Blechen - c. 1829.webp"
+  },
+  {
+    "id": "142",
+    "title": "The Cathedral of Chartres.",
+    "artist": "Jean-Baptiste-Camille Corot",
+    "date": {
+      "start": 1830,
+      "end": 1830,
+      "circa": false,
+      "label": "1830"
+    },
+    "source": "The Cathedral of Chartres. - Jean-Baptiste-Camille Corot - 1830.jpg"
+  },
+  {
+    "id": "033",
+    "title": "The Church at Arbonne",
+    "artist": "Jean-François Millet",
+    "date": {
+      "start": 1870,
+      "end": 1870,
+      "circa": true,
+      "label": "c. 1870"
+    },
+    "source": "The Church at Arbonne - Jean-François Millet - c. 1870.jpg"
+  },
+  {
+    "id": "145",
+    "title": "The Forest in Winter at Sunset",
+    "artist": "Théodore Rousseau",
+    "date": {
+      "start": 1845,
+      "end": 1864,
+      "circa": true,
+      "label": "c. 1845–1864"
+    },
+    "source": "The Forest in Winter at Sunset - Théodore Rousseau - c. 1845–1864.jpg"
+  },
+  {
+    "id": "049",
+    "title": "The Forest Stream",
+    "artist": "Jacob van Ruisdael",
+    "date": {
+      "start": 1660,
+      "end": 1660,
+      "circa": true,
+      "label": "c. 1660"
+    },
+    "source": "The Forest Stream - Jacob van Ruisdael - c. 1660.jpg"
+  },
+  {
+    "id": "027",
+    "title": "The Gemeenlandshuis and the Old Church, Delft, Summer",
+    "artist": "Cornelis Springer",
+    "date": {
+      "start": 1877,
+      "end": 1877,
+      "circa": false,
+      "label": "1877"
+    },
+    "source": "The Gemeenlandshuis and the Old Church, Delft, Summer - Cornelis Springer - 1877.jpg"
+  },
+  {
+    "id": "147",
+    "title": "The Gleaners, Musée d'Orsay, Paris.",
+    "artist": "Jean-François Millet",
+    "date": {
+      "start": 1857,
+      "end": 1857,
+      "circa": false,
+      "label": "1857"
+    },
+    "source": "The Gleaners, Musée d'Orsay, Paris. - Jean-François Millet - 1857.jpg"
+  },
+  {
+    "id": "173",
+    "title": "The Goldfinch",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1654,
+      "end": 1654,
+      "circa": false,
+      "label": "1654"
+    },
+    "source": "The Goldfinch - Carel Fabritius - 1654.jpg"
+  },
+  {
+    "id": "093",
+    "title": "The Great Day of His Wrath",
+    "artist": "John Martin",
+    "date": {
+      "start": 1851,
+      "end": 1853,
+      "circa": false,
+      "label": "1851–1853"
+    },
+    "source": "The Great Day of His Wrath - John Martin - 1851–1853.jpg"
+  },
+  {
+    "id": "149",
+    "title": "The Harvest, Musée d'Orsay.",
+    "artist": "Charles-François Daubigny",
+    "date": {
+      "start": 1851,
+      "end": 1851,
+      "circa": false,
+      "label": "1851"
+    },
+    "source": "The Harvest, Musée d'Orsay. - Charles-François Daubigny - 1851.jpg"
+  },
+  {
+    "id": "126",
+    "title": "The Knight with the Falcon",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1660,
+      "end": 1660,
+      "circa": true,
+      "label": "c. 1660"
+    },
+    "source": "The Knight with the Falcon - Rembrandt van Rijn - c. 1660.webp"
+  },
+  {
+    "id": "139",
+    "title": "The Marsh",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1885,
+      "end": 1888,
+      "circa": true,
+      "label": "c. 1885–1888"
+    },
+    "source": "The Marsh - Anton Mauve - c. 1885–1888.jpg"
+  },
+  {
+    "id": "092",
+    "title": "The Milkmaid",
+    "artist": "Johannes Vermeer",
+    "date": {
+      "start": 1658,
+      "end": 1658,
+      "circa": true,
+      "label": "c. 1658"
+    },
+    "source": "The Milkmaid (Het melkmeisje) - Johannes Vermeer - c. 1658.webp"
+  },
+  {
+    "id": "117",
+    "title": "The Mill",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1645,
+      "end": 1648,
+      "circa": false,
+      "label": "1645–1648"
+    },
+    "source": "The Mill - Rembrandt van Rijn - 1645–1648.webp"
+  },
+  {
+    "id": "127",
+    "title": "The Night Watch",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1642,
+      "end": 1642,
+      "circa": false,
+      "label": "1642"
+    },
+    "source": "The Night Watch (Militia Company of District II under Captain Frans Banninck Cocq) - Rembrandt van Rijn - 1642.webp"
+  },
+  {
+    "id": "144",
+    "title": "The Old Oak",
+    "artist": "Jules Dupré",
+    "date": {
+      "start": 1870,
+      "end": 1870,
+      "circa": true,
+      "label": "c. 1870"
+    },
+    "source": "The Old Oak - Jules Dupré - c. 1870.webp"
+  },
+  {
+    "id": "111",
+    "title": "The Parable of the Rich Fool",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1627,
+      "end": 1627,
+      "circa": false,
+      "label": "1627"
+    },
+    "source": "The Parable of the Rich Fool - Rembrandt van Rijn - 1627.jpg"
+  },
+  {
+    "id": "099",
+    "title": "The Philosopher in Contemplation",
+    "artist": "Rembrandt van Rijn",
+    "date": {
+      "start": 1632,
+      "end": 1632,
+      "circa": false,
+      "label": "1632"
+    },
+    "source": "The Philosopher in Contemplation - Rembrandt van Rijn - 1632.jpg"
+  },
+  {
+    "id": "150",
+    "title": "The Pond at Gylieu",
+    "artist": "Charles-François Daubigny",
+    "date": {
+      "start": 1853,
+      "end": 1853,
+      "circa": false,
+      "label": "1853"
+    },
+    "source": "The Pond at Gylieu - Charles-François Daubigny - 1853.jpg"
+  },
+  {
+    "id": "179",
+    "title": "The Regents of the Old Men's Almshouse",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1664,
+      "end": 1664,
+      "circa": true,
+      "label": "c. 1664"
+    },
+    "source": "The Regents of the Old Men's Almshouse - Frans Hals - c. 1664.webp"
+  },
+  {
+    "id": "152",
+    "title": "The Sailboat (Seascape)",
+    "artist": "Gustave Courbet",
+    "date": {
+      "start": 1869,
+      "end": 1869,
+      "circa": true,
+      "label": "c. 1869"
+    },
+    "source": "The Sailboat (Seascape) - Gustave Courbet - c. 1869.jpg"
+  },
+  {
+    "id": "018",
+    "title": "The Sea of Ice",
+    "artist": "Caspar David Friedrich",
+    "date": {
+      "start": 1823,
+      "end": 1824,
+      "circa": false,
+      "label": "1823–1824"
+    },
+    "source": "The Sea of Ice (Das Eismeer) - Caspar David Friedrich - 1823–1824.jpg"
+  },
+  {
+    "id": "171",
+    "title": "The Sentry",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1654,
+      "end": 1654,
+      "circa": false,
+      "label": "1654"
+    },
+    "source": "The Sentry - Carel Fabritius - 1654 (2).jpg"
+  },
+  {
+    "id": "014",
+    "title": "The Sentry",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1654,
+      "end": 1654,
+      "circa": false,
+      "label": "1654"
+    },
+    "source": "The Sentry - Carel Fabritius - 1654.jpg"
+  },
+  {
+    "id": "159",
+    "title": "The Shipping Canal at Rijswijk (The View at Geestbrug)",
+    "artist": "Jan Hendrik Weissenbruch",
+    "date": {
+      "start": 1868,
+      "end": 1868,
+      "circa": false,
+      "label": "1868"
+    },
+    "source": "The Shipping Canal at Rijswijk (The View at Geestbrug) - Jan Hendrik Weissenbruch - 1868.jpg"
+  },
+  {
+    "id": "146",
+    "title": "The Sower",
+    "artist": "Jean-François Millet",
+    "date": {
+      "start": 1850,
+      "end": 1850,
+      "circa": false,
+      "label": "1850"
+    },
+    "source": "The Sower - Jean-François Millet - 1850.jpg"
+  },
+  {
+    "id": "037",
+    "title": "The Temple of Vesta at Tivoli Seen from the Gorge",
+    "artist": "French School",
+    "date": {
+      "start": 1790,
+      "end": 1790,
+      "circa": true,
+      "label": "c. 1790"
+    },
+    "source": "The Temple of Vesta at Tivoli Seen from the Gorge - French School - c. 1790.webp"
+  },
+  {
+    "id": "140",
+    "title": "The Vegetable Garden",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1885,
+      "end": 1888,
+      "circa": true,
+      "label": "c. 1885–1888"
+    },
+    "source": "The Vegetable Garden - Anton Mauve - c. 1885–1888.jpeg"
+  },
+  {
+    "id": "122",
+    "title": "The Virgin in Prayer",
+    "artist": "Sassoferrato (Giovanni Battista Salvi)",
+    "date": {
+      "start": 1650,
+      "end": 1650,
+      "circa": true,
+      "label": "c. 1650"
+    },
+    "source": "The Virgin in Prayer (Jungfrun i bön) - Sassoferrato (Giovanni Battista Salvi) - c. 1650.jpg"
+  },
+  {
+    "id": "046",
+    "title": "The Wailing Wall",
+    "artist": "Jean-Léon Gérôme",
+    "date": {
+      "start": 1868,
+      "end": 1868,
+      "circa": true,
+      "label": "c. 1868"
+    },
+    "source": "The Wailing Wall - Jean-Léon Gérôme - c. 1868.jpg"
+  },
+  {
+    "id": "079",
+    "title": "Tokumochi",
+    "artist": "Takahashi Shōtei",
+    "date": {
+      "start": 1922,
+      "end": 1922,
+      "circa": false,
+      "label": "1922"
+    },
+    "source": "Tokumochi - Takahashi Shōtei - 1922.jpg"
+  },
+  {
+    "id": "156",
+    "title": "Trekvaart",
+    "artist": "Anton Mauve",
+    "date": {
+      "start": 1860,
+      "end": 1860,
+      "circa": false,
+      "label": "1860"
+    },
+    "source": "Trekvaart - Anton Mauve - 1860.jpeg"
+  },
+  {
+    "id": "031",
+    "title": "Trompe l'Oeil of an Etching by Ferdinand Bol",
+    "artist": "Dutch or Flemish School",
+    "date": {
+      "start": 1675,
+      "end": 1675,
+      "circa": true,
+      "label": "c. 1675"
+    },
+    "source": "Trompe l'Oeil of an Etching by Ferdinand Bol - Dutch or Flemish School - c. 1675.jpg"
+  },
+  {
+    "id": "083",
+    "title": "Ueno Tōshōgū Shrine",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1948,
+      "end": 1948,
+      "circa": false,
+      "label": "1948"
+    },
+    "source": "Ueno Tōshōgū Shrine - Kawase Hasui - 1948.jpg"
+  },
+  {
+    "id": "017",
+    "title": "View from a Window",
+    "artist": "Carl Gustav Carus",
+    "date": {
+      "start": 1823,
+      "end": 1823,
+      "circa": false,
+      "label": "1823"
+    },
+    "source": "View from a Window - Carl Gustav Carus - 1823.webp"
+  },
+  {
+    "id": "013",
+    "title": "View from Louveciennes",
+    "artist": "Camille Pissarro",
+    "date": {
+      "start": 1869,
+      "end": 1870,
+      "circa": false,
+      "label": "1869–1870"
+    },
+    "source": "View from Louveciennes - Camille Pissarro - 1869–1870.webp"
+  },
+  {
+    "id": "041",
+    "title": "View of Ariccia",
+    "artist": "Giovanni Battista Camuccini",
+    "date": {
+      "start": 1850,
+      "end": 1850,
+      "circa": true,
+      "label": "c. 1850"
+    },
+    "source": "View of Ariccia - Giovanni Battista Camuccini - c. 1850.jpg"
+  },
+  {
+    "id": "170",
+    "title": "View of Delft",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1652,
+      "end": 1652,
+      "circa": false,
+      "label": "1652"
+    },
+    "source": "View of Delft - Carel Fabritius - 1652.jpg"
+  },
+  {
+    "id": "091",
+    "title": "View of the Bridge and Town of Cava, Kingdom of Naples",
+    "artist": "Jean-Joseph-Xavier Bidauld",
+    "date": {
+      "start": 1785,
+      "end": 1790,
+      "circa": false,
+      "label": "1785–1790"
+    },
+    "source": "View of the Bridge and Town of Cava, Kingdom of Naples - Jean-Joseph-Xavier Bidauld - 1785–1790.jpg"
+  },
+  {
+    "id": "124",
+    "title": "View of the Cascades at Tivoli",
+    "artist": "Simon Denis",
+    "date": {
+      "start": 1789,
+      "end": 1793,
+      "circa": false,
+      "label": "1789–1793"
+    },
+    "source": "View of the Cascades at Tivoli - Simon Denis - 1789–1793.jpg"
+  },
+  {
+    "id": "131",
+    "title": "View of the Ponte Rocco, Tivoli",
+    "artist": "Jean-Joseph-Xavier Bidauld",
+    "date": {
+      "start": 1812,
+      "end": 1812,
+      "circa": false,
+      "label": "1812"
+    },
+    "source": "View of the Ponte Rocco, Tivoli - Jean-Joseph-Xavier Bidauld - 1812.webp"
+  },
+  {
+    "id": "132",
+    "title": "View of the Waterfalls at Tivoli",
+    "artist": "Attributed to Jean-Antoine Constantin",
+    "date": {
+      "start": 1788,
+      "end": 1788,
+      "circa": false,
+      "label": "1788"
+    },
+    "source": "View of the Waterfalls at Tivoli - Attributed to Jean-Antoine Constantin - 1788.jpg"
+  },
+  {
+    "id": "001",
+    "title": "Village in the Bernese Alps",
+    "artist": "Adolf Mosengel",
+    "date": {
+      "start": 1885,
+      "end": 1885,
+      "circa": false,
+      "label": "1885"
+    },
+    "source": "Village in the Bernese Alps - Adolf Mosengel - 1885.jpg"
+  },
+  {
+    "id": "133",
+    "title": "Wheat Fields",
+    "artist": "Jacob van Ruisdael",
+    "date": {
+      "start": 1670,
+      "end": 1670,
+      "circa": true,
+      "label": "c. 1670"
+    },
+    "source": "Wheat Fields - Jacob van Ruisdael - c. 1670.jpg"
+  },
+  {
+    "id": "028",
+    "title": "Woman with the Green Shawl (Mulher do chalé verde) – detail",
+    "artist": "Cyprien Eugène Boulet",
+    "date": {
+      "start": 1927,
+      "end": 1927,
+      "circa": false,
+      "label": "1927"
+    },
+    "source": "Woman with the Green Shawl (Mulher do chalé verde) – detail - Cyprien Eugène Boulet - 1927.jpg"
+  },
+  {
+    "id": "050",
+    "title": "Wooded Hillside with a View of Bentheim Castle",
+    "artist": "Jacob van Ruisdael",
+    "date": {
+      "start": 1655,
+      "end": 1655,
+      "circa": true,
+      "label": "c. 1655"
+    },
+    "source": "Wooded Hillside with a View of Bentheim Castle - Jacob van Ruisdael - c. 1655.jpg"
+  },
+  {
+    "id": "045",
+    "title": "Working-Class City",
+    "artist": "Hans Baluschek",
+    "date": {
+      "start": 1920,
+      "end": 1920,
+      "circa": false,
+      "label": "1920"
+    },
+    "source": "Working-Class City (Arbeiterstadt) - Hans Baluschek - 1920.jpg"
+  },
+  {
+    "id": "087",
+    "title": "Yoshida Village, from the series Ten Views of Fuji",
+    "artist": "Hiroshi Yoshida",
+    "date": {
+      "start": 1926,
+      "end": 1926,
+      "circa": false,
+      "label": "1926"
+    },
+    "source": "Yoshida Village, from the series Ten Views of Fuji - Hiroshi Yoshida - 1926.jpg"
+  },
+  {
+    "id": "071",
+    "title": "Yotsuya Araki Yokochō at Night",
+    "artist": "Tsuchiya Kōitsu",
+    "date": {
+      "start": 1935,
+      "end": 1935,
+      "circa": false,
+      "label": "1935"
+    },
+    "source": "Yotsuya Araki Yokochō at Night - Tsuchiya Kōitsu - 1935.jpg"
+  },
+  {
+    "id": "002",
+    "title": "Young Hare",
+    "artist": "Albrecht Dürer",
+    "date": {
+      "start": 1502,
+      "end": 1502,
+      "circa": false,
+      "label": "1502"
+    },
+    "source": "Young Hare - Albrecht Dürer - 1502.jpg"
+  },
+  {
+    "id": "044",
+    "title": "Young Man at His Window",
+    "artist": "Gustave Caillebotte",
+    "date": {
+      "start": 1876,
+      "end": 1876,
+      "circa": false,
+      "label": "1876"
+    },
+    "source": "Young Man at His Window (Jeune homme à sa fenêtre) - Gustave Caillebotte - 1876.jpg"
+  },
+  {
+    "id": "034",
+    "title": "Young Man Holding a Skull (Vanitas)",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1626,
+      "end": 1628,
+      "circa": false,
+      "label": "1626–1628"
+    },
+    "source": "Young Man Holding a Skull (Vanitas) - Frans Hals - 1626–1628.webp"
+  },
+  {
+    "id": "172",
+    "title": "Young Man in a Fur Cap",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1654,
+      "end": 1654,
+      "circa": false,
+      "label": "1654"
+    },
+    "source": "Young Man in a Fur Cap - Carel Fabritius - 1654.jpg"
+  },
+  {
+    "id": "015",
+    "title": "Young Man in a Fur Cap",
+    "artist": "Carel Fabritius",
+    "date": {
+      "start": 1654,
+      "end": 1654,
+      "circa": false,
+      "label": "1654"
+    },
+    "source": "Young Man in a Fur Cap - Carel Fabritius - 1654.webp"
+  },
+  {
+    "id": "174",
+    "title": "Young Man with a Skull",
+    "artist": "Frans Hals",
+    "date": {
+      "start": 1626,
+      "end": 1628,
+      "circa": true,
+      "label": "c. 1626–1628"
+    },
+    "source": "Young Man with a Skull - Frans Hals - c. 1626–1628.jpg"
+  },
+  {
+    "id": "056",
+    "title": "Zensetsu Temple, Sanshū",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1937,
+      "end": 1937,
+      "circa": false,
+      "label": "1937"
+    },
+    "source": "Zensetsu Temple, Sanshū - Kawase Hasui - 1937.jpg"
+  },
+  {
+    "id": "082",
+    "title": "Zōjōji Temple",
+    "artist": "Tsuchiya Kōitsu",
+    "date": {
+      "start": 1933,
+      "end": 1933,
+      "circa": false,
+      "label": "1933"
+    },
+    "source": "Zōjōji Temple - Tsuchiya Kōitsu - 1933.jpg"
+  },
+  {
+    "id": "068",
+    "title": "Zōjōji Temple, Shiba",
+    "artist": "Kawase Hasui",
+    "date": {
+      "start": 1925,
+      "end": 1925,
+      "circa": false,
+      "label": "1925"
+    },
+    "source": "Zōjōji Temple, Shiba - Kawase Hasui - 1925.jpg"
+  },
+  {
+    "id": "160",
+    "title": "Zomerdag",
+    "artist": "Jan Hendrik Weissenbruch",
+    "date": {
+      "start": 1870,
+      "end": 1903,
+      "circa": true,
+      "label": "c. 1870–c. 1903"
+    },
+    "source": "Zomerdag - Jan Hendrik Weissenbruch - c. 1870–c. 1903.jpg"
+  },
+  {
+    "id": "164",
+    "title": "Zomers boerenlandschap",
+    "artist": "Willem Bastiaan Tholen",
+    "date": {
+      "start": 1883,
+      "end": 1883,
+      "circa": false,
+      "label": "1883"
+    },
+    "source": "Zomers boerenlandschap - Willem Bastiaan Tholen - 1883.jpg"
+  }
+]

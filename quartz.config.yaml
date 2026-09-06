@@ -165,6 +165,13 @@ plugins:
         tags: true
       recentCount: 6
       tagCount: 12
+  - source: ./custom-plugins/art-page
+    enabled: true
+    options:
+      slug: art-gallery
+      explorer:
+        enabled: true
+        label: Art
   - source: github:quartz-community/folder-page
     enabled: true
   - source: github:quartz-community/tag-page

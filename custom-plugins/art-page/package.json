@@ -1,0 +1,42 @@
+{
+  "name": "art-page",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./index.js",
+  "quartz": {
+    "name": "art-page",
+    "displayName": "Art Page",
+    "category": [
+      "pageType",
+      "emitter"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "slug": "art",
+      "explorer": {
+        "enabled": false,
+        "label": "Art"
+      }
+    },
+    "optionSchema": {
+      "slug": {
+        "type": "string"
+      },
+      "explorer": {
+        "type": "object",
+        "properties": {
+          "enabled": {
+            "type": "boolean"
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
